@@ -22,14 +22,14 @@
 
 \documentclass{resume} % Use the custom resume.cls style
 
-\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.75in,top=0.55in,right=0.75in,bottom=0.55in]{geometry} % Document margins
 \usepackage[yyyymmdd]{datetime}
 \newdateformat{specialdate}{\THEYEAR-\twodigit{\THEMONTH}-\twodigit{\THEDAY}}
 \date{\specialdate\today}
 \name{Yiduo Ke} % Your name
 %\address{Website/Portfolio: http://yiduo.me} % Your phone number and email
 \address{GitHub: yiduoke} 
-\address{LinkedIn: yiduoke} 
+%\address{LinkedIn: yiduoke} 
 \address{(607)-988-8942 \\ yk467@cornell.edu} % Your address
 % Your secondary addess (optional)
 %\address{Willing to relocate \\ Visa sponsorship is not required}
@@ -59,22 +59,12 @@
 
 
 \begin{rSection}{Education}
-%
-%{\bf Cornell University} \hfill {\em August 2018 - December 2021} \\ 
-%B.S. in Computer Science (GPA: 3.60)  \\
-%\begin{itemize}
-%  \item Object-Oriented Programming and Data Structures $\diamond$ Functional Programming in OCaml  $\diamond$ Discrete Mathematics $\diamond$ Probability $\diamond$ Linear Algebra $\diamond$ Multivariable Calculus
-%\end{itemize}
 
-
-{\bf Cornell University}\\
-\textit{B.S. in Computer Science (GPA: 3.8)}
- \hfill {\em class of 2021}
+{\bf Cornell University} \textit{B.S. in Computer Science (GPA: 3.8)}  \hfill {\em class of 2021}
 \item Object-Oriented Programming and Data Structures $\diamond$  Introduction to Analysis of Algorithms $\diamond$ Functional Programming in OCaml $\diamond$ Machine Learning $\diamond$ Computer Vision $\diamond$ Artificial Intelligence $\diamond$ Introduction to Computational Complexity $\diamond$ Probability Models and Interference $\diamond$ Linear Algebra $\diamond$ Discrete Mathematics
 
 
-{\bf Stuyvesant High School}
- \hfill {\em 2014 - 2018}
+{\bf Stuyvesant High School} \textit{High School Diploma}   \hfill {\em 2014 - 2018}
 \item Computer Graphics $\diamond$ Systems Level Programming $\diamond$ Software Development $\diamond$ AP Computer Science
 
 
@@ -139,29 +129,35 @@
 \end{rSection}
 
 %----------------------------------------------------------------------------------------
-%	PROJECTS SECTION------           Yidi Ke
+%	PROJECTS SECTION------          
 %----------------------------------------------------------------------------------------
-\begin{rSection}{Extracurricular Activities and Achievements}
+\begin{rSection}{Technical Projects}
 
 %\item {\bf Birch-Library (JSP/JPA, Java, HTML/CSS/JavaScript, MySQL)} Implemented a %book rental system allows users to rent, hold, rate and write a review for a book
 
-\begin{rSubsection}{Stuyvesant Science Olympiad}{\em 2016 - 2018 }{Event Leader}{ New York, NY}
-\item Optics 9th place at New York Metropolitan Regional Competition
-\item Materials Science 5th place at New York Metropolitan Regional Competition
-\item Trained our school's optics event competitors
+\begin{rSubsection}{Enigma Machine}{\em https://github.com/yiduoke/Enigma-Machine}{}{}
+\item Implemented the Enigma Machine in OCaml
+\item Supports all features of the actual Enigma machine (rotor, reflector, plugboard, stepping, ciphering, deciphering)
 \end{rSubsection}
 
-
-\begin{rSubsection}{StuyNaught - Stuyvesant's Zero Robotics Team}{\em 2016 - 2018 }{Programmer}{ New York, NY}
-\item Worked together with teammates to program our robot in the annual MIT coding competiton sponsored by NASA
-\item 2016-2017 season finalist
-\item 2017-2018 season world champion in alliance with an Italian team and another American team
+\begin{rSubsection}{Linux Shell}{\em https://github.com/yiduoke/Systems-Project-01}{}{}
+\item Developed a bash shell very similar to the Linux Ubuntu shell that executes user commands
+\item Implemented in the C language
 \end{rSubsection}
 
-
-\begin{rSubsection}{StuyHacks 5: Honorable Mention }{\em 2018}{}{}
-\item Project in Processing that turns live camera feed into different styles of art
+\begin{rSubsection}{Graphics Engine}{\em https://github.com/yiduoke/13Graphics-friday}{}{}
+\item Built a graphics engine that displays and animates 3D shapes and objects
+\item Reads mesh files to generate GIFs
+\item Supports various types of shading (flat, Phong, Gouraud)
 \end{rSubsection}
+
+%\begin{rSubsection}{StuyHacks 5: Honorable Mention }{\em 2018}{}{}
+%\item Project in Processing that turns live camera feed into different styles of art
+%\end{rSubsection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS------          
+%----------------------------------------------------------------------------------------
 
 \begin{rSection}{Technical Skills}
 
@@ -174,6 +170,19 @@ Tools & Git, Linux(Ubuntu)
 
 \end{tabular}
 
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Languages}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+English& native\\
+Chinese (Mandarin)& native\\
+German& intermediate\\
+\end{tabular}
 \end{rSection}
 
 
